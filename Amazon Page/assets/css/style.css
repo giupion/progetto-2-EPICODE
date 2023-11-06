@@ -12,13 +12,14 @@
 .logo{background-color: #222f3f;
     margin:0 auto;
     
+
   }
 
 
 .barra-selezione{
     display: inline-block;
-    text-align: left;
- 
+    align-items: left;
+  
    }
    .barra-selezione div{
     display: inline-block;
