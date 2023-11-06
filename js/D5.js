@@ -112,23 +112,30 @@ let colori=[];
 {
 for(i=0;i<cars.length;i++){
  colori.push(cars[i].color)
-  
-  if(colori.indexOf("b")===1){console.log("Fizz")}
-  else{console.log("Buzz");}
-
- 
+ if(colori.indexOf("blue"||"black")!=-1){console.log("Buzz");}
+ else {console.log("Fizz");}
 }}
+
+
 console.log(colori)
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
-let numericArray = [
+var numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
 
-for(i=0;numericArray.length;i++)
-{}
+var i=0;
+while(i<numericArray.length){
+
+  console.log(numericArray[i]
+   )
+   if(numericArray[i]===32){break;}
+   else{i++;}
+ 
+}
+
 
 
 /* ESERCIZIO 10
@@ -137,33 +144,30 @@ for(i=0;numericArray.length;i++)
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
-const traslitterazione=[]
-
-const eyeColor = {
-  blue: [],
-  yellow: [],
-  brown: [],
-  red: [],
-  blue_gray: []
-}
+const traslitterazione=[];
 
 
-for (i = 0; i < numericArray.length; i++)
-  switch (numericArray[i]) {
-    case a:
-      traslitterazione.push(1)
+
+
+
+for (i = 0; i < charactersArray.length; i++)
+  switch (charactersArray[i]) {
+    case "g":
+      traslitterazione.push(7)
       //inserisci alliniterno di questo oggetto che ha proprieta blu l'oggetto che hai iterato
       break;
-    case b:
-      
+    case "n":
+      traslitterazione.push(12)
       break;
-    case "brown":
-      eyeColor.brown.push(starWarsCharacters[i])
+      case"u":
+      traslitterazione.push(3)
       break;
-    case "red":
-      eyeColor.red.push(starWarsCharacters[i])
+    case "z":
+      traslitterazione.push(21)
       break;
-    case "blue-gray":
-      eyeColor.blue_gray.push(starWarsCharacters[i])
+    case "d":
+      traslitterazione.push(4)
+      break;
+    
   }
-console.log(eyeColor)
+console.log(traslitterazione)
