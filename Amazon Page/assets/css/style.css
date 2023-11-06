@@ -46,17 +46,17 @@ text-decoration: none;
 
   .gift-ground{
     background-image: url("../images/bg-image.png");
-    background-repeat: no-repeat;
-    
+   
+    padding-bottom:35px;
     text-align:center;
     padding-top:40px;
     color: #FFFFFF;
-    width:100%;
+    
     }
 
     .gift-ground2{
         background-repeat: no-repeat;
-       padding-top:10px;
+       
         text-align:center;
         background-image:url("../images/bg-image.png") ;
     height: 50px;
@@ -91,13 +91,13 @@ text-decoration: none;
         .logo2{background-color: #222f3f;
             margin:0 auto;
            text-align: center ;
-          
+           padding:20px;
            
           }
 
           .barra-top { text-align: center;
             background-color: #364759;
-            }
+            padding:10px;}
 
             footer a{color:white;}
 
