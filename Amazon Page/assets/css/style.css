@@ -3,6 +3,7 @@
     margin:0 auto;
     font-size:1em;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .container{margin:0 auto;
@@ -11,7 +12,7 @@
 h1,p,a{font-size:0.8rem}
 
 
-.logo {background-color: #222f3f;
+.logo {background-color: #222f3f!important;
     margin:0 auto;
    
 
@@ -72,7 +73,7 @@ color:white;
 
         .allineaquattro div{display: inline-block;
             width:200px; 
-        margin-left:35px;}
+        margin-left:20px;}
 
         .allineaquattro img{border-radius:15px;}
 
@@ -99,7 +100,8 @@ color:white;
 
             footer a{color:white;}
 
-            article{background-color:white}
+            article{background-color:white;
+            width:100%}
 
             a{color:#65a0af}
           h1{color:white !important;}
