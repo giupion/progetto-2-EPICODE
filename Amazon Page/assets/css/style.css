@@ -19,7 +19,8 @@
 .barra-selezione{
     display: inline-block;
     align-items: left;
-  
+    background-color: #364759;
+    width:100%;
    }
    .barra-selezione div{
     display: inline-block;
