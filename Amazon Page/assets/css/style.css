@@ -2,13 +2,14 @@
 *,html{
     margin:0 auto;
     font-size:1em;
-   
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{margin:0 auto;
   
 }
 h1,p,a{font-size:0.8rem}
+
 
 .logo {background-color: #222f3f;
     margin:0 auto;
@@ -66,11 +67,12 @@ color:white;
        
         text-align:center;
         margin: 20px 0;
-        padding: 20px;
+        padding: 0;
         }
 
         .allineaquattro div{display: inline-block;
-            }
+            width:200px; 
+        margin-left:35px;}
 
         .allineaquattro img{border-radius:15px;}
 
@@ -98,3 +100,6 @@ color:white;
             footer a{color:white;}
 
             article{background-color:white}
+
+            a{color:#65a0af}
+          h1{color:white !important;}
