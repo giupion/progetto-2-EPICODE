@@ -2,14 +2,15 @@
 *,html{
     margin:0 auto;
     font-size:1em;
+   
 }
 
 .container{margin:0 auto;
-    
+  
 }
 h1,p,a{font-size:0.8rem}
 
-.logo{background-color: #222f3f;
+.logo {background-color: #222f3f;
     margin:0 auto;
    
 
@@ -32,7 +33,7 @@ margin-top:40px;}
    }
 
 
-   .barra-arancio{background-color: #f56600;
+   .barra-arancio{background-color: #f56600 !important;
 margin-top:40px;
 margin-bottom:40px;
 text-align: center;
@@ -73,9 +74,13 @@ color:white;
 
         .allineaquattro img{border-radius:15px;}
 
-        .gifting{text-align: center;}
+        .gifting{text-align: center;
+            margin-bottom:15px;
+        margin-top: 15px;}
 
-        .sound{text-align: center;}
+        .sound{text-align: center;
+        margin-bottom:15px;
+    margin-top: 15px;}
 
 
 
@@ -86,6 +91,10 @@ color:white;
            
           }
 
-          .barra-top{ text-align: center;
+          .barra-top { text-align: center;
             background-color: #364759;
             }
+
+            footer a{color:white;}
+
+            article{background-color:white}
