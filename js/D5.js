@@ -107,14 +107,17 @@ delete justTrims[3][1]
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
+
+
 let colori=[];
 
 {
 for(i=0;i<cars.length;i++){
  colori.push(cars[i].color)
- if(colori.indexOf("blue"||"black")!=1){console.log("Buzz");}
+ if(colori.indexOf("blue"||"black")!=-1){console.log("Buzz");}
  else {console.log("Fizz");}
 }}
+
 //lue"||"black
 
 console.log(colori)

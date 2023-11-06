@@ -1,11 +1,69 @@
 /* Your styles here */
-*,html{font-size: 1em ;
+*,html{
     margin:0 auto;
-     
+    
 }
-
 
 .container{margin:0 auto;
     
-    
 }
+
+
+.logo{background-color: #222f3f;
+    margin:0 auto;
+    
+  }
+
+
+.barra-selezione{
+    display: inline-block;
+    text-align: left;
+ 
+   }
+   .barra-selezione div{
+    display: inline-block;
+    text-align: left;
+    
+   }
+
+
+   .barra-arancio{background-color: #f56600;
+margin-top:40px;
+margin-bottom:40px;
+text-align: center;
+
+}
+
+
+  .gift-ground{
+    background-image: url("../images/bg-image.png");
+    background-repeat: no-repeat;
+    text-align:center;
+    color: #FFFFFF;
+    height: 200px;
+    width:100%;
+    }
+
+    .gift-ground2{
+        background-repeat: no-repeat;
+        height: 200px;
+        text-align:center;
+        background-image:url("../images/bg-img.png") ;
+    
+    
+    color: #FFFFFF;}
+
+
+    .allineaquattro{ display: inline-block;
+       
+        text-align:center;
+        margin: 20px 0;
+        padding: 20px;
+        }
+
+        .allineaquattro div{display: inline-block;
+            }
+
+        .allineaquattro img{border-radius:15px;}
+
+        
