@@ -104,4 +104,6 @@ text-decoration: none;
             width:100%}
 
             a{color:#65a0af}
-          h1{color:white !important;}
+           h1{color:white !important;}
+article h1{color:black !important;}
+          
