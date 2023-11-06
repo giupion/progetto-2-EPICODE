@@ -1,20 +1,22 @@
 /* Your styles here */
 *,html{
     margin:0 auto;
-    
+    font-size:1em;
 }
 
 .container{margin:0 auto;
     
 }
-
+h1,p,a{font-size:0.8rem}
 
 .logo{background-color: #222f3f;
     margin:0 auto;
-    
+   
 
   }
-
+article h1{text-align: left;
+margin-bottom:40px;
+margin-top:40px;}
 
 .barra-selezione{
     display: inline-block;
@@ -71,4 +73,6 @@ color:white;
 
         .allineaquattro img{border-radius:15px;}
 
-        
+        .gifting{text-align: center;}
+
+        .sound{text-align: center;}
