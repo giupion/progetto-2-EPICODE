@@ -112,10 +112,10 @@ let colori=[];
 {
 for(i=0;i<cars.length;i++){
  colori.push(cars[i].color)
- if(colori.indexOf("blue"||"black")!=-1){console.log("Buzz");}
+ if(colori.indexOf("blue"||"black")!=1){console.log("Buzz");}
  else {console.log("Fizz");}
 }}
-
+//lue"||"black
 
 console.log(colori)
 
