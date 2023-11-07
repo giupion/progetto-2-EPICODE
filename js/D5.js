@@ -112,15 +112,18 @@ delete justTrims[3][1]
 
 
 
-  let colori=[];
-
-  {
-    for(i=0;i<cars.length;i++){
-     colori.push(cars[i].color)
-     if(colori.indexOf("blue"||"black")!=-1){console.log("Buzz");}
-     else {console.log("Fizz");}
-    }}
+ 
     
+
+    let car = 0
+for (let i = 0; i<cars.length; i++){
+  car = cars[i]
+  if(car.color.startsWith('b') ){
+    console.log("Fizz")
+  } else{
+    console.log("Buzz")
+  }
+}
   
 
 //lue"||"black
