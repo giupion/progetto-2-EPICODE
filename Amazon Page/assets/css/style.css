@@ -46,13 +46,14 @@ margin-bottom:40px;
 text-align: center;
 color:white;
 text-decoration: none;
+width:95%;
 }
 
 
 
   .gift-ground{
     background-image: url("../images/bg-image.png");
-   
+    width:95%;
     padding-bottom:35px;
     text-align:center;
     padding-top:40px;
@@ -62,7 +63,7 @@ text-decoration: none;
 
     .gift-ground2{
         background-repeat: no-repeat;
-       
+        width:95%;
         text-align:center;
         background-image:url("../images/bg-image.png") ;
     height: 50px;
@@ -72,11 +73,12 @@ text-decoration: none;
 
 
     .allineaquattro{ display: inline-block;
-       
+        
         text-align:center;
         margin: 20px 0;
         padding: 0;
         }
+        .allineamente{width:95%;}
 
         .allineaquattro div{display: inline-block;
             width:200px; 
@@ -86,11 +88,13 @@ text-decoration: none;
 
         .gifting{text-align: center;
             margin-bottom:15px;
-        margin-top: 15px;}
+        margin-top: 15px;
+        width:95%;}
 
         .sound{text-align: center;
         margin-bottom:15px;
-    margin-top: 15px;}
+    margin-top: 15px;
+    width:95%;}
 
 
 
